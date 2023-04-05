@@ -1,5 +1,5 @@
 Stored XSS: This variety of XSS is classified as persistent, as it is retained within the 
-database and is triggered each time a user accesses the area where the XSS payload was inserted
+database and is triggered each time a user accesses the area where the XSS payload was inserted.
 
 Blind XSS: attacks occur when a malicious payload is injected into a vulnerable web application and stored on the server-side. 
 Unlike reflected or DOM-based XSS, where the attacker can see the results of the attack, in a blind XSS attack, the attacker 
