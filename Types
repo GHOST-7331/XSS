@@ -1,0 +1,14 @@
+Stored XSS: This variety of XSS is classified as persistent, as it is retained within the 
+database and is triggered each time a user accesses the area where the XSS payload was inserted
+
+Blind XSS: attacks occur when a malicious payload is injected into a vulnerable web application and stored on the server-side. 
+Unlike reflected or DOM-based XSS, where the attacker can see the results of the attack, in a blind XSS attack, the attacker 
+does not receive any immediate feedback upon executing the payload.
+
+DOM XSS: is a type of XSS attack that targets the Document Object Model (DOM) of a web application, 
+and is executed on the client-side of the application. This attack is initiated when a web page containing a malicious script is loaded 
+into a victim's browser, and the script manipulates the DOM to perform a malicious action, such as stealing user data or initiating unauthorized transactions.
+
+Reflected XSS: Reflected cross-site scripting (XSS) is a type of vulnerability that occurs when an attacker injects malicious code into a web application that is then 
+reflected back to the user in the application's response. The attack is usually carried out by tricking a victim into clicking on a specially crafted link that contains 
+the malicious payload.
